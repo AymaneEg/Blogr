@@ -1,0 +1,86 @@
+.NavBar{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    color: white;
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    color:hsl(0, 0%, 100%) ;
+    font-weight: 600;
+    align-items: center;
+} 
+
+.NavBar > div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.NavItems{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.NavItems li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.NavItems li img {
+    transition: .5s;
+}
+.NavItems li:hover img {
+    transform: rotateZ(180deg);
+}
+
+.NavItems li:hover .Suggest{
+   transform: translateY(0px);
+   visibility: visible;
+
+}
+
+
+.Suggest{
+    position: absolute;
+    top: 50px;
+    width: 7%;
+    background-color: red;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    background-color: aliceblue;
+    transition: 1s;
+    transform: translateY(-10px);  
+    visibility: none;
+
+}
+
+
+
+.Suggest li {
+     height: 4vh;
+     transition: .2s;
+}
+.Suggest li:hover {
+     font-weight: bold;
+}
+
+.MenuIcon{
+    opacity: 0;
+    top: 18px;
+    right: 18px;
+    position: absolute;
+    font-size: 5rem;
+}
+
+@media all and (max-width : 500px) {
+    body{
+        width: 100%;
+        
+    }
+}

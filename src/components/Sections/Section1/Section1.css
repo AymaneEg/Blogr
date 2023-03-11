@@ -1,0 +1,43 @@
+.Section1{
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 55rem 6rem;
+    padding: 5% 1%;
+    background-size: contain;
+    text-align: center;
+    background-image: url(./illustration-editor-desktop.svg);
+}
+.Section1 > p{
+    color:  hsl(208, 49%, 24%);
+    font-size: 2.3rem;
+    font-weight:bold;
+}
+
+.Intoduction{
+    width: 35%;
+    text-align: left;
+    margin: 10%;
+}
+
+.Intoduction ul  {
+   margin-top: 70px;
+}
+
+.Intoduction ul li {
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 16px;
+    color: hsl(207, 13%, 34%) ;
+}
+.Intoduction ul li:nth-child(1) {
+    color:  hsl(208, 49%, 24%);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.Intoduction ul li:nth-child(2) {
+    font-size: 17px;
+    color: hsl(207, 13%, 34%) ;
+    font-weight: 300;
+}

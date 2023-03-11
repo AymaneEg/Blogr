@@ -1,0 +1,34 @@
+.Footer{
+    margin-top: 70px;
+    width: 100%;
+    height: 40vh;
+    border-top-right-radius: 100px ;
+    display: flex;
+    padding: 50px 30px;
+    justify-content: space-around;
+    background-color: hsl(237, 17%, 21%)
+    /* background: linear-gradient(To right , rgb(44, 45, 63 , 0.9) , hsl(237, 23%, 32%) ) , url('./bg-pattern-circles.svg') ; */
+    ;
+    color: white;
+
+}
+
+.Footer div:nth-child(1){
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.Footer div ul{
+   margin-top: 10px;
+   line-height: 30px;
+}
+.Footer div ul li{
+    list-style-type:none ;
+    color: hsl(0, 0%, 65%);
+    cursor: pointer;
+}
+.Footer div ul li:hover{
+    color: white;
+    text-decoration: 1px white solid;
+}
